@@ -1,114 +1,58 @@
-🧮 Calculator Web Application
+# 🧮 Calculator Web Application
 
-A simple, responsive, and visually appealing calculator built using HTML, CSS, and JavaScript.
+A clean, responsive, and modern calculator built using HTML, CSS, and JavaScript. This project performs basic arithmetic operations with a user-friendly interface and smooth interactions.
 
-📖 About the Project
+## Overview
 
-This Calculator Web Application is a beginner-friendly yet well-structured project that performs basic arithmetic operations such as addition, subtraction, multiplication, division, percentage calculations, and decimal operations.
+This Calculator Web Application is a beginner-friendly frontend project designed to demonstrate core web development concepts such as DOM manipulation, event handling, and UI styling. The calculator supports all essential mathematical operations while maintaining a clean and professional design. The codebase is simple, readable, and easy to extend, making it ideal for learning and portfolio use.
 
-The project focuses on:
+## Features
 
-Clean UI design 🎨
+• Addition, Subtraction, Multiplication, and Division  
+• Percentage calculation  
+• Decimal number support  
+• Clear screen (CL) functionality  
+• Delete last digit (DEL) functionality  
+• Responsive layout  
+• Modern UI with hover effects  
 
-Simple JavaScript logic 🧠
+## Technologies Used
 
-Responsive and user-friendly layout 📱
+HTML5 for structure  
+CSS3 for styling and layout  
+JavaScript (Vanilla JS) for logic and interactivity  
+Git & GitHub for version control  
 
-It is ideal for students and beginners who want to understand DOM manipulation, event handling, and basic JavaScript logic.
+## Installation & Setup
 
-✨ Features
+Clone the repository and open the project locally.
 
-➕ Addition
-
-➖ Subtraction
-
-✖️ Multiplication
-
-➗ Division
-
-📊 Percentage calculation
-
-🔢 Decimal support
-
-⌫ Delete last digit
-
-🧹 Clear screen option
-
-🎨 Modern UI with hover effects
-
-🛠️ Tech Stack
-
-Frontend
-
-HTML5
-
-CSS3
-
-JavaScript (Vanilla JS)
-
-Tools
-
-Visual Studio Code
-
-Git & GitHub
-
-⚙️ Installation
-
-Follow these steps to run the project locally:
-
-# Clone the repository
-git clone https://github.com/your-username/calculator.git
-
-# Navigate to the project folder
+git clone https://github.com/Andrew-57/CALCULATOR.git
 cd calculator
 
-# Open index.html in your browser
+Open index.html in any modern web browser. No additional dependencies are required.
 
+## Usage
 
-No additional dependencies are required ✅
+Click the number and operator buttons to form an expression.
+Press = to evaluate the result.
+Use CL to clear the display.
+Use DEL to remove the last entered character.
 
-▶️ Usage
+## Project Structure
 
-Open index.html in any modern browser
-
-Click the buttons to enter numbers and operators
-
-Press = to calculate the result
-
-Use:
-
-CL to clear the screen
-
-DEL to delete the last digit
-
-🗂️ Project Structure
 calculator/
-│── index.html
-│── style.css
+
+├── index.html
+
+├── style.css
+
 └── README.md
 
-🧠 Code Explanation (Brief)
+## Code Explanation
 
-HTML
+The HTML file defines the calculator layout using buttons and an input display.The CSS file applies a grid-based layout, modern colors, rounded buttons, shadows, and hover effects.The JavaScript functions in html handles user input, updates the display, evaluates expressions, and manages error handling.
 
-Creates the calculator layout using buttons and input fields
 
-CSS
 
-Uses Grid layout for button alignment
 
-Adds modern colors, shadows, and hover effects
-
-JavaScript
-
-Handles button clicks
-
-Uses eval() for expression calculation
-
-Includes error handling for invalid inputs
-
-📸 Screenshots
-
-You can add screenshots here to showcase the UI.
-
-![Calculator UI](screenshot.png)
