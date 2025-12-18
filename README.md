@@ -26,11 +26,10 @@ Git & GitHub for version control
 ## Installation & Setup
 
 Clone the repository and open the project locally.
-
+```
 git clone https://github.com/Andrew-57/CALCULATOR.git
-
 cd calculator
-
+```
 Open index.html in any modern web browser. No additional dependencies are required.
 
 ## Usage
